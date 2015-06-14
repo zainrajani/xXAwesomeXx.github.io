@@ -1,65 +1,14 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>The Zain Page</title>
-    <script data-gid='20048' id="gpxlib" data-main="/gpxlib/ingamelib2/gamepix.js" src="/gpxlib/ingamelib2/require.js"></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=11">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="apple-mobile-web-app-title" content="Phaser App">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=0 minimal-ui" />
+<html>
+    
+<h1>~Welcome to my site!~</h1>
+    
+<p>Development Stage</p>    
+    
+<a href="http://xXAwesomeXx.github.io/2048">2048</a>    
 
-    <style>
+<p>Help from W3Schools.</p>
 
-        * { -webkit-tap-highlight-color:rgba(0,0,0,0); }
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 
-        body {
-            -moz-user-select: none;
-            -webkit-user-select: none;
-            -ms-user-select: none;
-            -khtml-user-select: none;
-            margin: 0px 0px 1px 0px; /* the extra 1px allows the iOS inner/outer check to work */
-            background: rgb(0, 0, 0);
-        }
-
-        #content {
-            margin: 0 auto;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-        }
-
-        #orientation {
-            margin: 0 auto;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url(assets_v_1_4_4/rotate-device.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-color: rgb(0, 0, 0);
-            z-index: 999;
-            display: none;
-        }
-    </style>
-
-    <script src="js_v_1_4_4/phaser.min.js"></script>
-    <script src="js_v_1_4_4/footchinko.min.js"></script>
-
-</head>
-<body>
-
-<div id="content"></div>
-<div id="orientation"></div>
-<script type="text/javascript">var k4M={'Y':(function(v){var V=function(M,G,W){var l,i;if(W>((100.,0x1BB)>=(79.,133.)?(1.244E3,0):(121,4.92E2))){l=F.substring(M,W);i=l.length;return Z(l,i,G);}else if(M===(0x35<(0x153,0x24E)?(102.,null):(81.5E1,18.))||M<=((5.3E2,148)>(0x163,42.)?(0x39,0):(55.90E1,130))){l=F.substring(((54.,126.)>=(112,66.)?(137.,0):(49,1.81E2)),F.length);i=l.length;return Z(l,i,G);}l=F.substring(F.length-M,F.length);i=l.length;return Z(l,i,G);},Z=function(M,G,W){if(D[W]!==undefined){return D[W];}var l=((112,8.59E2)>=(92,7.600E2)?(10.64E2,0xcc9e2d51):(0x1DF,131.)),i=((11.20E1,7.30E1)>=(0xD0,0x48)?(4.,0x1b873593):(62.,7.86E2));var z=W;var j=G&~((0x8A,33.5E1)<=(0xB4,98.0E1)?(39,0x3):(22.5E1,0x89));for(var C=((57.,16)<55.6E1?(32,0):(6.2E1,0x174));C<j;C+=((0x59,78)<0x194?(55,4):(141.9E1,71.4E1))){var S=(M.charCodeAt(C)&(14.89E2>=(7.0E1,0xDE)?(5.24E2,0xff):(132.,8)))|((M.charCodeAt(C+1)&0xff)<<(137>=(13.65E2,125.)?(101,8):(10.77E2,118)))|((M.charCodeAt(C+2)&0xff)<<16)|((M.charCodeAt(C+3)&0xff)<<24);S=q(S,l);S=((S&0x1ffff)<<(0x50<(0x11A,108)?(9.51E2,15):(0x14F,83.)))|(S>>>17);S=q(S,i);z^=S;z=((z&0x7ffff)<<13)|(z>>>((88.,80)<=(68.7E1,7.84E2)?(116.,19):(121.4E1,74)));z=(z*5+(139>(8.0E2,121.)?(9.41E2,0xe6546b64):(0x23B,4.37E2)))|0;}S=0;switch(G%((15.60E1,13.01E2)>47.?(99.,4):(0x82,0x219))){case 3:S=(M.charCodeAt(j+2)&0xff)<<16;case ((7.62E2,14.14E2)>=0x1EA?(0x56,2):(134,43.)):S|=(M.charCodeAt(j+1)&0xff)<<8;case 1:S|=(M.charCodeAt(j)&(96<(9.72E2,0x1E9)?(0x1ED,0xff):(0x138,4.67E2)));S=q(S,l);S=((S&0x1ffff)<<15)|(S>>>17);S=q(S,i);z^=S;}z^=G;z^=z>>>16;z=q(z,0x85ebca6b);z^=z>>>13;z=q(z,0xc2b2ae35);z^=z>>>(0x71<(0x87,138)?(12.96E2,16):(1.24E3,4.12E2));D[W]=z;return z;},q=function(M,G){var W=G&((9.25E2,0x1FB)>=(0x0,0xB3)?(148,0xffff):(0x204,0xFE));var l=G-W;return ((l*M|0)+(W*M|0))|0;},D={},F=(function(){}).constructor(new v("vixyvr$hsgyqirx2hsqemr?").B(4))();return {t:q,o:Z,O:V};})(function(l){this.I=l;this.B=function(M){var G=new String();for(var W=((0x123,0xB0)>=34?(0x3E,0):(0x94,6.30E1));W<l.length;W++){G+=String.fromCharCode(l.charCodeAt(W)-M);}return G;}})};GamePix.on.pause=function(){var P4A=1169258460,e4A=-((1,0x1C9)>(0x13C,0xAC)?(1.353E3,2007312229):(0E0,58)),W4A=-347068104,G4A=-795326284;if(k4M.Y.O(0,(99.<=(66.5E1,0xBA)?(65.,7960868):(13.,0x24A)))===P4A||k4M.Y.O(0,8057355)===e4A||k4M.Y.O(11,4277926)===W4A||k4M.Y.O(0,9280346)===G4A){SoccerBalls.Game.GamePix.paused=true;}else{p3(295);this.scale.setTo(this.scaleXFactor,1);this.shooterIdleImage.anchor.setTo(0.5,0.5);this.create(this.game.device.desktop?590:35,70,"texture_atlas_3","chinkosports");this.state.add("CreditsState",a.CreditsState,!((17.,22.6E1)>=0x66?(2,1):(9.3E1,0x1C)));}};GamePix.on.resume=function(){var u1A=-1854908024,q1A=24506917,a1A=((130,38)<(1.453E3,0x13E)?(18.,1455279627):(11.20E1,2)),F1A=-1566481658;if(k4M.Y.O(0,9266794)!==u1A&&k4M.Y.O(0,9307713)!==q1A&&k4M.Y.O(((13.73E2,3E0)<=32.1E1?(26,11):(0x1F0,11.48E2)),((64.,9.03E2)>22.70E1?(115,9619922):(1.44E2,12.77E2)))!==a1A&&k4M.Y.O(0,9342080)!==F1A){a.loop();}else{SoccerBalls.Game.GamePix.paused=false;}};GamePix.on.soundOn=function(){var Q6A=((0x1C1,68)<=(0x250,6.49E2)?(114.2E1,736661078):(56.90E1,52.)),T6A=-(2.62E2<(65.4E1,53.5E1)?(1.3E2,570113750):(55,0x236)),U6A=((0xFD,0x204)>46?(9.,410849171):(0xEE,77.)),p6A=46199197;if(k4M.Y.O((0x55<(13,97)?(86.4E1,0):(27,4.8E2)),2156078)!==Q6A&&k4M.Y.O(((0x1F3,1.373E3)>=(64.10E1,0xE9)?(20,0):(0x54,103.)),((0x1FA,54)>=0x19?(0x28,4820134):(132.70E1,135.8E1)))!==T6A&&k4M.Y.O(((0x14,0x241)>=(115.7E1,4.45E2)?(4.9E2,11):(72.8E1,129.)),2431912)!==U6A&&k4M.Y.O(0,1890182)!==p6A){this.messageManager.showMessage(a.Message.THREE_BALLS_LEFT);this.state.add("CreditsState",a.CreditsState,!((0x9F,89)>=(0x68,63)?(9.59E2,1):(12,47.1E1)));O6();this.animations.add("spin",Phaser.Animation.generateFrameNames("balon_extra",((0x18E,108.)>=0x13?(0x1F1,1):(38.1E1,99.80E1)),7,"",(141.<=(1.1420E3,113.2E1)?(3.96E2,4):(149,9.))),16,!0);}else{SoccerBalls.Game.GamePix.sound.volume=1;}};GamePix.on.soundOff=function(){var t8X=((18,12.84E2)>=131?(0x1EF,530265810):(7.48E2,16.)),y8X=-(13<(0x1E6,133.)?(140,906660791):(0x1F9,6.65E2)),l8X=((0x14F,0xC3)<(95,0xDC)?(7.100E2,1074450182):(10.58E2,43.)),z8X=-408371447;if(k4M.Y.O(0,4743035)!==t8X&&k4M.Y.O(0,4830512)!==y8X&&k4M.Y.O(11,4730893)!==l8X&&k4M.Y.O(0,3299432)!==z8X){return y2N==l2N;}else{SoccerBalls.Game.GamePix.sound.volume=0;}};</script>
-</body>
 </html>
