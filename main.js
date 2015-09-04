@@ -1,4 +1,4 @@
-var ZQRN = "HacksMania 1.5";
+var ZQRN = "HacksMania v1.5";
 
 var red = [0, 100, 63];
 var orange = [40, 100, 60];
