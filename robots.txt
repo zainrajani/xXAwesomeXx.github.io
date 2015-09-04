@@ -12,7 +12,7 @@ Disallow: /news
 Allow: /news/directory
 Disallow: /nwshp
 Disallow: /setnewsprefs?
-Disallow: /index.html?
+Disallow: /index.html
 Disallow: /?
 Allow: /?hl=
 Disallow: /?hl=*&
