@@ -1,5 +1,0 @@
-
-NEW
-And
-Improved
-Site
