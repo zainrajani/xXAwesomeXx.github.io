@@ -1,4 +1,3 @@
-
 /*
  * Simple-Jekyll-Search by Christian Fei (https://github.com/christian-fei/Simple-Jekyll-Search)
  * Licensed under the terms of the MIT License (http://choosealicense.com/licenses/mit/)
