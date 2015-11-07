@@ -41,6 +41,23 @@ h1 {
 </style>
 </head>
 <body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : 'your-app-id',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 <div>
   <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -129,106 +146,8 @@ h1 {
   <div class="container-fluid">
   <br>
       <footer class="site-footer">
-      <div class="site-footer__row site-footer__row--main">
-        <div class="constrain centered gd gd-pad">
-          <ul class="gd_column-1-5 md-1-1">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/magazine/">Magazine</a>
-            </li>
-            <li>
-              <a href="/film/">Film</a>
-            </li>
-            <li>
-              <a href="/radio/">Radio</a>
-            </li>
-            <li>
-              <a href="/shop/">Shop</a>
-            </li>
-            <li>
-              <a href="/monocolumn/">Monocolumn</a>
-            </li>
-            <li>
-              <a href="/25-25/">Travel</a>
-            </li>
-            <li>
-              <a href="http://cafe.monocle.com/">London Café</a>
-            </li>
-          </ul>
-          <ul class="gd_column-1-5 md-1-1">
-            <li>
-              <a href="/affairs/">Affairs</a>
-            </li>
-            <li>
-              <a href="/business/">Business</a>
-            </li>
-            <li>
-              <a href="/culture/">Culture</a>
-            </li>
-            <li>
-              <a href="/design/">Design</a>
-            </li>
-            <li>
-              <a href="/edits/">Edits</a>
-            </li>
-          </ul>
-          <ul class="gd_column-1-5 md-1-1">
-            <li>
-              <a class="no-ajax ssl-radio-keepalive" href="/sign-in/">Sign in</a>
-            </li>
-            <li>
-              <a class="no-ajax ssl-radio-keepalive" href="/subscribe/">Subscribe</a>
-            </li>
-            <li>
-              <a href="/about/contacts/">Contacts</a>
-            </li>
-            <li>
-              <a href="/about/jobs/">Jobs</a>
-            </li>
-            <li>
-              <a href="/about/">About Us</a>
-            </li>
-            <li>
-              <a href="/about/faq/">FAQs</a>
-            </li>
-            <li>
-              <a href="/contributors/">Contributors</a>
-            </li>
-            <li>
-              <a href="/about/cookie-policy/">Cookie Policy</a>
-            </li>
-            <li>
-              <a href="/about/terms-and-conditions/">Terms &amp; Conditions</a>
-            </li>
-            <li>
-              <a href="/site-map/">Site Map</a>
-            </li>
-          </ul>
-          <div class="sign-up-container gd_column-2-5 md-1-1">
-            <header>
-              <p>Monocle email bulletins</p>
-            </header>
-            <form action="http://monocle.createsend.com/t/r/s/jyhjidr/" method="post" class="subform">
-              <p>
-                <label for="fieldEmail" class="sr-only">Email</label>
-                <input id="fieldEmail" name="cm-jyhjidr-jyhjidr" type="email" class="outline corners" placeholder="Your email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'" />
-                <input id="fieldhyhddrk-0" name="cm-fo-hyhddrk" value="6260243" type="hidden" />
-                <input id="fieldhyhddrk-1" name="cm-fo-hyhddrk" value="6260244" type="hidden" />
-                <input id="fieldhutdcr" name="cm-f-hutdcr" type="hidden" value="Footer on /" />
-                <button type="submit" class="grey corners">Sign up</button>
-              </p>
-            </form>
-            <p class="alert alert-success alert-muted" role="alert" style="display: none;">Thank you, you are now signed up.</p>
-            <p class="alert alert-error" role="alert" style="display: none;"></p>
-          </div>
-        </div>
-      </div>
-      <div class="site-footer__row site-footer__row--sub bg-dark-grey js-sub-footer clearfix">
-        <div class="constrain centered gd-pad">
-          <p class="monocle-copyright">
-            <a href="/" title="Go to home">© 2015 <strong>Monocle</strong></a>
+          <p class="xXAWesomeXx-copyright">
+            <a href="/" title="Go to home">© 2015 <strong>xXAwesomeXx</strong></a>
           </p>
           <a href="#" class="back-to-top">Back to top</a>
         </div>
