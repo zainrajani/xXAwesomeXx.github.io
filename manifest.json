@@ -1,0 +1,19 @@
+{
+  "short_name": "xG",
+  "name": "xGames",
+  "icons": [
+    {
+      "src": "http://i.imgur.com/3DtY9OE.png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "http://i.imgur.com/3DtY9OE.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "http://i.imgur.com/3DtY9OE.png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html?launcher=true"
+}
